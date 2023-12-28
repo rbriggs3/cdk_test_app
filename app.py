@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def health_check():
-    return "Healthy!" 
+    return "Healthy!"
 
 @app.route('/<random_string>')
 def returnBackwardsString(random_string):
